@@ -56,14 +56,14 @@
 
     --rating-butons-background-color: #262E38;
     --rating-buttons-text-color: #969FAD;
-    --rating-butons-background-color-active: #FFFFFF;
-    --rating-butons-text-color-active: #262E38;
+    --rating-butons-background-color-hover: #FFFFFF;
+    --rating-butons-text-color-hover: #262E38;
     --rating-butons-background-color-selected: #FC7614;
     --rating-butons-text-color-selected: #262E38;
 
     --submit-button-background-color: #FC7614;
     --submit-button-text-color: #131518;
-    --submit-button-background-color-active: #FFFFFF;
+    --submit-button-background-color-hover: #FFFFFF;
 
     --selection-info-container-background-color: #262E38;
     --selection-info-container-text-color: #FC7614;
@@ -91,7 +91,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: radial-gradient(var(--main-gradient-color-1), var(--main-gradient-color-2));
+    background: linear-gradient(to bottom, var(--main-gradient-color-1), var(--main-gradient-color-2));
 
     padding: 2.85rem 2.4rem;
 
@@ -104,7 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     height: 4rem;
     width: 4rem;
 
@@ -119,9 +119,102 @@ body {
 }
 
 
+.mainCard__ratingSection {
+    display: flex;
+    flex-direction: column;
 
+    gap: 1.6rem;
+}
 
+.mainCard__ratingSection__title {
+    font-size: var(--text-preset-2-font-size);
+    font-weight: var(--text-preset-2-font-weight);
+    line-height: var(--text-preset-2-line-height);
+    letter-spacing: var(--text-preset-2-letter-spacing);
 
+    color: var(--highlight-text-color);
+
+    text-align: left;
+
+}
+
+.mainCard__ratingSection__text {
+    font-size: var(--text-preset-5-font-size-regular);
+    font-weight: var(--text-preset-5-font-weight-regular);
+    line-height: var(--text-preset-5-line-height-regular);
+    letter-spacing: var(--text-preset-5-letter-spacing-regular);
+
+    color: var(--overall-text-color);
+
+    text-align: left;
+}
+
+.mainCard__ratingSection__buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 1.6rem;
+}
+
+.mainCard__ratingSection__buttonsContainer__button {
+    height: 4.2rem;
+    width: 4.2rem;
+
+    font-size: var(--text-preset-5-font-size-bold);
+    font-weight: var(--text-preset-5-font-weight-bold);
+    line-height: var(--text-preset-5-line-height-bold);
+    letter-spacing: var(--text-preset-5-letter-spacing-bold);
+
+    text-align: center;
+
+    background-color: var(--rating-butons-background-color);
+    color: var(--rating-buttons-text-color);
+
+    border: none;
+    border-radius: 100%;
+    outline: none;
+
+    cursor: pointer;
+}
+
+.mainCard__ratingSection__buttonsContainer__button:hover {
+    background-color: var(--rating-butons-background-color-hover);
+    color: var(--rating-butons-text-color-hover);
+}
+
+.mainCard__ratingSection__buttonsContainer__button:focus {
+    background-color: var(--rating-butons-background-color-hover);
+    color: var(--rating-butons-text-color-hover);
+}
+
+.mainCard__ratingSection__buttonsContainer__button--selected {
+    background-color: var(--rating-butons-background-color-selected);
+    color: var(--rating-butons-text-color-selected);
+}
+
+.mainCard__ratingSection__submitButton {
+    height: 4.5rem;
+
+    font-size: var(--text-preset-5-font-size-bold);
+    font-weight: var(--text-preset-5-font-weight-bold);
+    line-height: var(--text-preset-5-line-height-bold);
+    letter-spacing: var(--text-preset-5-letter-spacing-bold);
+
+    background-color: var(--submit-button-background-color);
+    color: var(--submit-button-text-color);
+
+    border: none;
+    border-radius: 2.25rem;
+    outline: none;
+
+    cursor: pointer;
+}
+
+.mainCard__ratingSection__submitButton:hover,
+.mainCard__ratingSection__submitButton:focus {
+    background-color: var(--submit-button-background-color-hover);
+}
 
 .hidden {
     display: none;
