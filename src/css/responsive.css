@@ -3,6 +3,8 @@
     .mainCard {
         max-width: 41.2rem;
 
+        min-height: 41.6rem;
+
         padding: 3.2rem 2.4rem;
     
         border-radius: 3rem;
@@ -46,8 +48,8 @@
     
         font-size: var(--text-preset-3-font-size);
         font-weight: var(--text-preset-3-font-weight);
-        line-height: var(--text-preset-3-line-height);
-        letter-spacing: var(--text-preset-3-letter-spacing);
+        line-height: 0;
+        letter-spacing: 0;
     }
 
     .mainCard__ratingSection__submitButton {
@@ -56,4 +58,15 @@
         line-height: var(--text-preset-5-line-height-semibold);
         letter-spacing: var(--text-preset-5-letter-spacing-semibold);
     }
+}
+
+
+
+
+
+
+@media(min-width: 90rem){
+
+
+    
 }
