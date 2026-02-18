@@ -24,7 +24,7 @@
     --text-preset-4-font-weight-bold: 700;
     --text-preset-4-line-height-bold: 1.9rem;
     --text-preset-4-letter-spacing-bold: 0.2rem;
-    
+
     --text-preset-5-font-size-regular: 1.4rem;
     --text-preset-5-font-weight-regular: 400;
     --text-preset-5-line-height-regular: 2.2rem;
@@ -53,7 +53,7 @@
 
     --highlight-text-color: #FFFFFF;
     --overall-text-color: #969FAD;
-    
+
     --rating-butons-background-color: #262E38;
     --rating-buttons-text-color: #969FAD;
     --rating-butons-background-color-active: #FFFFFF;
@@ -68,3 +68,19 @@
     --selection-info-container-background-color: #262E38;
     --selection-info-container-text-color: #FC7614;
 }
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100dvh;
+
+    background-color: var(--body-background-color);
+    font-family: Overpass, sans-serif;
+}
+
