@@ -1,0 +1,59 @@
+@media (min-width: 48rem){
+
+    .mainCard {
+        max-width: 41.2rem;
+
+        padding: 3.2rem 2.4rem;
+    
+        border-radius: 3rem;
+    
+        gap: 3.2rem;
+    }
+
+    .mainCard__svgIconContainer {
+        height: 4.8rem;
+        width: 4.8rem;
+    }
+
+    .mainCard__svgIconContainer__svgIcon {
+        height: 1.7rem;
+        width: auto;
+    }
+
+    .mainCard__ratingSection__title {
+        font-size: var(--text-preset-1-font-size);
+        font-weight: var(--text-preset-1-font-weight);
+        line-height: var(--text-preset-1-line-height);
+        letter-spacing: var(--text-preset-1-letter-spacing);
+    }
+
+    .mainCard__ratingSection__text {
+        font-size: var(--text-preset-4-font-size-regular);
+        font-weight: var(--text-preset-4-font-weight-regular);
+        line-height: var(--text-preset-4-line-height-regular);
+        letter-spacing: var(--text-preset-4-letter-spacing-regular);
+    }
+
+    .mainCard__ratingSection__buttonsContainer {
+        justify-content: space-evenly;
+
+        gap: 2.4rem;
+    }
+
+    .mainCard__ratingSection__buttonsContainer__button {
+        height: 5.1rem;
+        width: 5.1rem;
+    
+        font-size: var(--text-preset-3-font-size);
+        font-weight: var(--text-preset-3-font-weight);
+        line-height: var(--text-preset-3-line-height);
+        letter-spacing: var(--text-preset-3-letter-spacing);
+    }
+
+    .mainCard__ratingSection__submitButton {
+        font-size: var(--text-preset-5-font-size-semibold);
+        font-weight: var(--text-preset-5-font-weight-semibold);
+        line-height: var(--text-preset-5-line-height-semibold);
+        letter-spacing: var(--text-preset-5-letter-spacing-semibold);
+    }
+}
