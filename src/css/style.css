@@ -188,7 +188,7 @@ body {
     color: var(--rating-butons-text-color-hover);
 }
 
-.mainCard__ratingSection__buttonsContainer__button:focus-visible {
+.mainCard__ratingSection__buttonsContainer__button:focus {
     background-color: var(--rating-butons-background-color-hover);
     color: var(--rating-butons-text-color-hover);
 }
@@ -229,9 +229,9 @@ body {
 
 @keyframes shake {
     0% { transform: translateX(0); }
-    25% { transform: translateX(-4px); }
-    50% { transform: translateX(4px); }
-    75% { transform: translateX(-4px); }
+    25% { transform: translateX(-0.4rem); }
+    50% { transform: translateX(0.4rem); }
+    75% { transform: translateX(-0.4rem); }
     100% { transform: translateX(0); }
 }
 

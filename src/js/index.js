@@ -26,9 +26,8 @@ submitButton.addEventListener('click', function () {
 
     if (rate === 0) {
 
-        submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected-shake'
-
-        )
+        submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected-shake')
+        
         void submitButton.offsetWidth
         submitButton.classList.add('mainCard__ratingSection__submitButton--no-rate-selected-shake')
 
