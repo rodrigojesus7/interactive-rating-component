@@ -176,7 +176,6 @@ body {
 
     border: none;
     border-radius: 100%;
-    outline: none;
 
     cursor: pointer;
 }
@@ -186,14 +185,15 @@ body {
     color: var(--rating-butons-text-color-hover);
 }
 
-.mainCard__ratingSection__buttonsContainer__button:focus {
-    background-color: var(--rating-butons-background-color-hover);
-    color: var(--rating-butons-text-color-hover);
+.mainCard__ratingSection__buttonsContainer__button:focus-visible {
+    outline: 0.1rem solid var(--rating-butons-background-color-selected);
+
 }
 
 .mainCard__ratingSection__buttonsContainer__button--selected {
     background-color: var(--rating-butons-background-color-selected);
     color: var(--rating-butons-text-color-selected);
+    outline: none;
 }
 
 .mainCard__ratingSection__submitButton {
