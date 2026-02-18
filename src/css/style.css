@@ -219,6 +219,105 @@ body {
     background-color: var(--submit-button-background-color-hover);
 }
 
+
+
+
+
+
+
+
+
+
+
+.thankYouCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 32.7rem;
+    min-height: 36rem;
+
+    background: linear-gradient(to bottom, var(--main-gradient-color-1), var(--main-gradient-color-2));
+
+    padding: 3.2rem 2.4rem;
+
+    border-radius: 1.5rem;
+
+    gap: 2.4rem;
+}
+
+.thankYouCard__indexInfoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 2.4rem;
+}
+
+.thankYouCard__indexInfoSection__svgIcon {
+    height: 9.6rem;
+    width: 14.4rem;
+}
+
+.thankYouCard__indexInfoSection__indexInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 3.2rem;
+    width: 16.8rem;
+
+    background-color: var(--selection-info-container-background-color);
+
+    border-radius: 2.25rem;
+}
+
+.thankYouCard__indexInfoSection__indexInfoContainer__indexInfo {
+    font-size: var(--text-preset-5-font-size-regular);
+    font-weight: var(--text-preset-5-font-weight-regular);
+    line-height: var(--text-preset-5-line-height-regular);
+    letter-spacing: var(--text-preset-5-letter-spacing-regular);
+
+    text-align: center;
+
+    width: 14.4rem;
+    height: 2rem;
+
+    color: var(--selection-info-container-text-color);
+}
+
+.thankYouCard__thankYouSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1.6rem;
+}
+
+.thankYouCard__indexInfoSection__thankYouTitle {
+    font-size: var(--text-preset-2-font-size);
+    font-weight: var(--text-preset-2-font-weight);
+    line-height: var(--text-preset-2-line-height);
+    letter-spacing: var(--text-preset-2-letter-spacing);
+
+    text-align: center;
+
+    color: var(--highlight-text-color);
+}
+
+.thankYouCard__indexInfoSection__thankYouText {
+    font-size: var(--text-preset-5-font-size-regular);
+    font-weight: var(--text-preset-5-font-weight-regular);
+    line-height: var(--text-preset-5-line-height-regular);
+    letter-spacing: var(--text-preset-5-letter-spacing-regular);
+
+    text-align: center;
+
+    color: var(--overall-text-color);
+}
+
+
 .hidden {
     display: none;
 }
