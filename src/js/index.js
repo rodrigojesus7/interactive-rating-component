@@ -10,9 +10,11 @@ ratingButtons.forEach((button, index) => {
 
         ratingButtons.forEach(button => {
             button.classList.remove('mainCard__ratingSection__buttonsContainer__button--selected')
+            button.setAttribute('aria-pressed', 'false')
         })
 
         button.blur()
+        button.setAttribute('aria-pressed', 'true')
         button.classList.add('mainCard__ratingSection__buttonsContainer__button--selected')
         submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected')
         submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected-shake')
@@ -27,7 +29,7 @@ submitButton.addEventListener('click', function () {
     if (rate === 0) {
 
         submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected-shake')
-        
+
         void submitButton.offsetWidth
         submitButton.classList.add('mainCard__ratingSection__submitButton--no-rate-selected-shake')
 
