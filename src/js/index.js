@@ -14,6 +14,7 @@ ratingButtons.forEach((button, index) => {
 
         button.blur()
         button.classList.add('mainCard__ratingSection__buttonsContainer__button--selected')
+        submitButton.focus()
 
         rate = index + 1
     })
