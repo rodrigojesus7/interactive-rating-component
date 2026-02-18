@@ -1,0 +1,70 @@
+:root {
+
+    --text-preset-1-font-size: 2.8rem;
+    --text-preset-1-font-weight: 700;
+    --text-preset-1-line-height: 3.5rem;
+    --text-preset-1-letter-spacing: 0;
+
+    --text-preset-2-font-size: 2.4rem;
+    --text-preset-2-font-weight: 700;
+    --text-preset-2-line-height: 3rem;
+    --text-preset-2-letter-spacing: 0;
+
+    --text-preset-3-font-size: 1.6rem;
+    --text-preset-3-font-weight: 700;
+    --text-preset-3-line-height: 2.4rem;
+    --text-preset-3-letter-spacing: 0.02rem;
+
+    --text-preset-4-font-size: 1.5rem;
+    --text-preset-4-font-weight-regular: 400;
+    --text-preset-4-line-height-regular: 2.4rem;
+    --text-preset-4-letter-spacing-regular: 0rem;
+
+    --text-preset-4-font-size-bold: 1.5rem;
+    --text-preset-4-font-weight-bold: 700;
+    --text-preset-4-line-height-bold: 1.9rem;
+    --text-preset-4-letter-spacing-bold: 0.2rem;
+    
+    --text-preset-5-font-size-regular: 1.4rem;
+    --text-preset-5-font-weight-regular: 400;
+    --text-preset-5-line-height-regular: 2.2rem;
+    --text-preset-5-letter-spacing-regular: 0;
+
+    --text-preset-5-font-size-semi-bold: 1.4rem;
+    --text-preset-5-font-weight-semi-bold: 600;
+    --text-preset-5-line-height-semi-bold: 2.4rem;
+    --text-preset-5-letter-spacing-semi-bold: 0.017rem;
+
+    --text-preset-5-font-size-bold: 1.4rem;
+    --text-preset-5-font-weight-bold: 700;
+    --text-preset-5-line-height-bold: 1.8rem;
+    --text-preset-5-letter-spacing-bold: 0.187rem;
+
+
+
+
+    --body-background-color: #131518;
+
+    --main-gradient-color-1: #232A34;
+    --main-gradient-color-2: #181E27;
+
+    --icon-button-background-color: #262E38;
+    --icon-button-icon-color: #FC7614;
+
+    --highlight-text-color: #FFFFFF;
+    --overall-text-color: #969FAD;
+    
+    --rating-butons-background-color: #262E38;
+    --rating-buttons-text-color: #969FAD;
+    --rating-butons-background-color-active: #FFFFFF;
+    --rating-butons-text-color-active: #262E38;
+    --rating-butons-background-color-selected: #FC7614;
+    --rating-butons-text-color-selected: #262E38;
+
+    --submit-button-background-color: #FC7614;
+    --submit-button-text-color: #131518;
+    --submit-button-background-color-active: #FFFFFF;
+
+    --selection-info-container-background-color: #262E38;
+    --selection-info-container-text-color: #FC7614;
+}
