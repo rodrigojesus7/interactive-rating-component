@@ -12,6 +12,7 @@ ratingButtons.forEach((button, index) => {
             button.classList.remove('mainCard__ratingSection__buttonsContainer__button--selected')
         })
 
+        button.blur()
         button.classList.add('mainCard__ratingSection__buttonsContainer__button--selected')
 
         rate = index + 1
