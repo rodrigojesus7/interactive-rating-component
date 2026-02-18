@@ -58,4 +58,67 @@
         line-height: var(--text-preset-5-line-height-semibold);
         letter-spacing: var(--text-preset-5-letter-spacing-semibold);
     }
+    
+
+
+
+
+
+
+
+
+
+
+    .thankYouCard {
+        max-width: 41.2rem;
+        min-height: 41.6rem;
+    
+        padding: 4rem 3.2rem;
+    
+        border-radius: 3rem;
+    
+        gap: 3.2rem;
+    }
+
+    .thankYouCard__indexInfoSection {
+        gap: 3.2rem;
+    }
+
+    .thankYouCard__indexInfoSection__svgIcon {
+        height: 10.8rem;
+        width: 16.2rem;
+    }
+
+    .thankYouCard__indexInfoSection__indexInfoContainer {
+        height: 3.2rem;
+        width: 19.3rem;
+    }
+
+    .thankYouCard__indexInfoSection__indexInfoContainer__indexInfo {
+        font-size: var(--text-preset-4-font-size-regular);
+        font-weight: var(--text-preset-4-font-weight-regular);
+        line-height: var(--text-preset-4-line-height-regular);
+        letter-spacing: var(--text-preset-4-letter-spacing-regular);
+    
+        text-align: center;
+    
+        width: 15.4rem;
+        height: 2rem;
+    
+        color: var(--selection-info-container-text-color);
+    }
+
+    .thankYouCard__indexInfoSection__thankYouTitle {
+        font-size: var(--text-preset-1-font-size);
+        font-weight: var(--text-preset-1-font-weight);
+        line-height: var(--text-preset-1-line-height);
+        letter-spacing: var(--text-preset-1-letter-spacing);
+    }
+
+    .thankYouCard__indexInfoSection__thankYouText {
+        font-size: var(--text-preset-4-font-size-regular);
+        font-weight: var(--text-preset-4-font-weight-regular);
+        line-height: var(--text-preset-4-line-height-regular);
+        letter-spacing: var(--text-preset-4-letter-spacing-regular);
+    }
 }
