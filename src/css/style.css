@@ -188,6 +188,11 @@ body {
     color: var(--rating-butons-text-color-hover);
 }
 
+.mainCard__ratingSection__buttonsContainer__button:focus-visible {
+    background-color: var(--rating-butons-background-color-hover);
+    color: var(--rating-butons-text-color-hover);
+}
+
 .mainCard__ratingSection__buttonsContainer__button:focus {
     background-color: var(--rating-butons-background-color-hover);
     color: var(--rating-butons-text-color-hover);
