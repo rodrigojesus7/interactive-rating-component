@@ -94,7 +94,7 @@ body {
     max-width: 32.7rem;
     min-height: 36rem;
 
-    background: linear-gradient(to bottom, var(--main-gradient-color-1), var(--main-gradient-color-2));
+    background: radial-gradient(circle at top, var(--main-gradient-color-1), var(--main-gradient-color-2));
 
     padding: 2.4rem;
 
@@ -237,7 +237,7 @@ body {
     max-width: 32.7rem;
     min-height: 36rem;
 
-    background: linear-gradient(to bottom, var(--main-gradient-color-1), var(--main-gradient-color-2));
+    background: radial-gradient(circle at top, var(--main-gradient-color-1), var(--main-gradient-color-2));
 
     padding: 3.2rem 2.4rem;
 
