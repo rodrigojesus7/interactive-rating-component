@@ -5,6 +5,21 @@ const submitButton = document.querySelector('.mainCard__ratingSection__submitBut
 let rateInfo = document.querySelector('.thankYouCard__indexInfoSection__indexInfoContainer__indexInfo__indexNumber')
 let rate = 0
 
+let usingKeyboard = false
+
+document.addEventListener('keydown', () => {
+    usingKeyboard = true
+})
+
+document.addEventListener('mousedown', () => {
+    usingKeyboard = false
+})
+
+document.addEventListener('touchstart', () => {
+    usingKeyboard = false
+})
+
+
 ratingButtons.forEach((button, index) => {
     button.addEventListener('click', function () {
 
@@ -18,11 +33,15 @@ ratingButtons.forEach((button, index) => {
         button.classList.add('mainCard__ratingSection__buttonsContainer__button--selected')
         submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected')
         submitButton.classList.remove('mainCard__ratingSection__submitButton--no-rate-selected-shake')
-        submitButton.focus()
+
+        if (usingKeyboard) {
+            submitButton.focus()
+        }
 
         rate = index + 1
     })
 })
+
 
 submitButton.addEventListener('click', function () {
 

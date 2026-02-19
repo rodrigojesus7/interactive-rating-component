@@ -193,10 +193,6 @@ body {
     color: var(--rating-butons-text-color-hover);
 }
 
-.mainCard__ratingSection__buttonsContainer__button:focus {
-    background-color: var(--rating-butons-background-color-hover);
-    color: var(--rating-butons-text-color-hover);
-}
 
 .mainCard__ratingSection__buttonsContainer__button--selected {
     background-color: var(--rating-butons-background-color-selected);
@@ -242,7 +238,7 @@ body {
 
 
 .mainCard__ratingSection__submitButton:hover,
-.mainCard__ratingSection__submitButton:focus {
+.mainCard__ratingSection__submitButton:focus-visible {
     background-color: var(--submit-button-background-color-hover);
 }
 
