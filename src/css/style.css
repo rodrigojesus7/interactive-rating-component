@@ -96,7 +96,7 @@ body {
 
     background: radial-gradient(circle at top, var(--main-gradient-color-1), var(--main-gradient-color-2));
 
-    padding: 2.4rem;
+    padding: 2.85rem 2.4rem;
 
     border-radius: 1.5rem;
 
@@ -262,7 +262,7 @@ body {
 
     background: radial-gradient(circle at top, var(--main-gradient-color-1), var(--main-gradient-color-2));
 
-    padding: 3.2rem 2.4rem;
+    padding: 3.6rem 2.4rem;
 
     border-radius: 1.5rem;
 
